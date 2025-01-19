@@ -9,5 +9,5 @@ Data Preprocessing: Data is cleaned and prepared for model training.
 Model Training: An XGBoost Classifier is trained on race data to predict the winner's probability.
 Model Evaluation: Model accuracy and feature importance are analyzed.
 
-#Image
+# Image
 <img width="950" alt="Output" src="https://github.com/user-attachments/assets/f822bf68-3e2f-4274-ad30-5ec7b46a915a" />
