@@ -1,0 +1,91 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.gettyimages.com/id/998461120/video/4k-red-particle-dust-abstract-background-seamless-loop-chek-my-page-for-difrent-background.jpg?s=640x640&k=20&c=5MIcMPabaPW-azn8-8cf3ndUM3Y8jUllUg9YJH7I9bc=');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+/* Form Container */
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Labels */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Form Inputs and Selects */
+form select, 
+form input[type="number"], 
+form button {
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+form button {
+    background-color: #d11a2d;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #b10e22;
+}
+
+/* Result Styling */
+#result {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid #d11a2d;
+    border-radius: 10px;
+    color: #d11a2d;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    #result {
+        width: 90%;
+    }
+}
